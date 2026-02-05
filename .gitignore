@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Ambientes virtuais
+venv/
+env/
+ENV/
+env*/
+
+# Arquivos de IDEs e editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+
+# Logs e temporários
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Arquivos do Kivy
+.kivy/
+.kivy/logs/
+.kivy/screenshots/
+
+# Arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos sensíveis ou desnecessários de commit
+*.json  # exceto high_score.json
+!data/high_score.json
+secrets/
+credentials/
+api_keys.py
+config_local.py
+
+# Dependências instaladas (se você usar requirements.txt)
+*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Arquivos de build / distribuição
+*.spec
+*.exe
+*.msi
+*.dmg
+*.app
+
+# Outros arquivos comuns
+*.bak
+*.orig
+*.rej
+*~
