@@ -41,7 +41,7 @@ pip install kivy_deps.glew kivy_deps.sdl2 kivy_deps.angle
 1 - Clone o repositório (ou baixe o ZIP):
 
 ```Bash
-git clone https://github.com/SEU-USUARIO/platform-game.git
+git clone https://github.com/taylonrimolo/platform-game.git
 cd platform-game
 ```
 
