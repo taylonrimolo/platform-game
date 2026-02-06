@@ -1,6 +1,3 @@
-# Este arquivo pode ser expandido futuramente para menu, game over, etc.
-# Por enquanto, apenas funções auxiliares de HUD
-
 from kivy.uix.label import Label
 from kivy.core.window import Window
 
