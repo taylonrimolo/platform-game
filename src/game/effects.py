@@ -19,12 +19,12 @@ def activate_powerup(game, ptype: str):
         existing['label'].text = f"{ptype.upper()} {int(existing['time_left'])}s"
         return
 
-    # Cores diferenciadas para cada power-up
+    # Cores diferentes para cada power-up
     colors = {
-        "jump":   (1.0, 0.4, 1.0, 1.0),   # magenta
-        "speed":  (0.3, 1.0, 1.0, 1.0),   # ciano
-        "shield": (1.0, 1.0, 0.4, 1.0),   # amarelo
-        "points": (1.0, 1.0, 1.0, 1.0)    # branco
+        "jump":   (1.0, 0.4, 1.0, 1.0),   
+        "speed":  (0.3, 1.0, 1.0, 1.0),   
+        "shield": (1.0, 1.0, 0.4, 1.0),   
+        "points": (1.0, 1.0, 1.0, 1.0)    
     }
 
     color = colors.get(ptype, (1,1,1,1))
