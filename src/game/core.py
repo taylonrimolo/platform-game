@@ -36,12 +36,11 @@ class Game(Widget):
         self.highscore_manager = HighScoreManager(HIGH_SCORE_FILE)
         self.high_score = self.highscore_manager.high_score
 
-        # === HUD Melhorada ===
         # Painel superior
         self.hud_panel = Widget(pos=(0, Window.height - 100), size=(Window.width, 100))
 
         with self.hud_panel.canvas.before:
-            Color(0.06, 0.10, 0.22, 0.70)  # fundo semi-transparente escuro
+            Color(0.06, 0.10, 0.22, 0.70)
             self.hud_bg = Rectangle(pos=self.hud_panel.pos, size=self.hud_panel.size)
 
         # Score com sombra
@@ -64,7 +63,7 @@ class Game(Widget):
         self.highscore_label = Label(
             text=f"Recorde: {self.high_score}",
             font_size=22,
-            color=(1.0, 0.92, 0.4, 1.0),  # amarelo claro
+            color=(1.0, 0.92, 0.4, 1.0),
             pos=(25, Window.height - 100)
         )
 
